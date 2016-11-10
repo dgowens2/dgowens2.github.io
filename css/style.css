@@ -411,6 +411,16 @@ label {
 	max-height: 5000px;
 }
 
+.scroll-arrow {
+	color: #FBF7E4;
+	position: absolute;
+	text-align: center;
+	font-size: 10cm;
+	top: 80%
+	opacity: 1;
+	cursor: pointer;
+}
+
 /*	Features
 	==================================================*/ 
 #features {
