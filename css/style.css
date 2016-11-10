@@ -343,7 +343,7 @@ label {
 	width: 100%;
 	top: 0;
 	position: fixed;
-	background: url("../images/20161027_171043.jpg") center center no-repeat; 
+	background: url("https://res.cloudinary.com/codezero/image/upload/v1478750410/521429_0292_uwgbbd.jpg") center center no-repeat; 
 	background-size: cover;
 	z-index: -100;
 }
@@ -395,7 +395,8 @@ label {
 }
 #hero .lp-element {
 	padding: 150px 50px;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.8);
+	/*background-color: #ecf0f1;*/
 }
 #hero h1 {
 	font-size: 60px;
@@ -403,6 +404,11 @@ label {
 }
 #hero p.lead {
 	font-size: 1.8em;
+}
+
+.about-img {
+	max-width: 5000px;
+	max-height: 5000px;
 }
 
 /*	Features
@@ -439,7 +445,7 @@ i  {
 /*	Image
 	==================================================*/
 #image {
-	background-color: #34495e;
+	background-color: #FFF;
 }
 
 /*	Color Override 
@@ -465,6 +471,20 @@ span.intense{
 }
 #faq a:hover {
 	opacity: .5;
+}
+
+#gallery {
+	background-color: #fff;
+}
+
+.gallery-skills {
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+
+.gallery-icon {
+	color: #FFF;
 }
 
 

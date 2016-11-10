@@ -58,7 +58,7 @@
 	        <span class="icon-bar"></span>
 	      </button>
 	      <!-- Your Logo -->
-	      <a href="../" class="navbar-brand"><span class="intense">D</span>onald<span class="intense"> G</span>owens, <span class="intense">J</span>r.</a>
+	      <a href="https://dgowens2.github.io/" class="navbar-brand"><span class="intense">D</span>onald<span class="intense"> G</span>owens, <span class="intense">J</span>r. - <span class="intense">J</span>ava <span class="intense">D</span>eveloper</a>
 	    </div>
 	    <!-- Start Navigation -->
 	    <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
@@ -70,13 +70,13 @@
 	          <a href="#image">About Me</a>
 	        </li>
 	        <li>
+	          <a href="#gallery">Skills</a>
+	        </li>	        
+	        <li>
 	          <a href="#features">Portfolio</a>
 	        </li>
 	        <li>
 	          <a href="#faq">Contact Me</a>
-	        </li>
-	        <li>
-	          <a href="#slider">Quotes</a>
 	        </li>
 	      </ul>
 	    </nav>
@@ -106,24 +106,28 @@
 	
 <!-- Start Image Block
 	================================================== -->
-	<section id="image" class="section" style="background-color:#F1F1F1; border-top: 1px solid rgba(0, 0, 0, .1);">
+	<section id="image" class="section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 sol-sm-12">
 					<div class="overview animate" data-animate="flipInX">
-						<h1>A little bit <span class="intense">about me</span></h1>
+						<h1>About <span class="intense">me</span></h1>
 						<p class="lead">I'm a husband, father, Spanish>English translator, project manager and back-end developer.</p>
 					</div>
 				</div>
-				<div class="col-md-6 col-sm-12"><img class="animate img-responsive" data-animate="fadeInLeft" src="images/20160508_121718_001 (3).jpg" alt=""/></div>
+				<div class="col-md-6 col-sm-12"><img class="animate img-responsive about-img"/><a href="https://res.cloudinary.com/codezero/image/upload/v1478541718/20161028_134051_zlcmyz.jpg" title="Donald, Dan & Rebecca demoing Community">
+						<img src="https://res.cloudinary.com/codezero/image/upload/v1478541718/20161028_134051_zlcmyz.jpg" alt="Community Team" class="animate img-responsive" data-animate="fadeInLeft">
+					</a></div>
+				
 				<div class="col-md-6 col-sm-12">
-					<div class="content-block animate" data-animate="fadeInRight" style="margin-top: 60px;">
+					<div class="content-block animate" data-animate="fadeInRight" \>
 						<h2>I love all things tech...</h2>
 						<hr>
-						<p class="lead">and after spending many hours watching developer conferences and tech keynotes online, I had a thought...why not spend my days doing what I already spend my personal time doing? So began my coding journey.</p>
+						<!-- <p class="lead">and after spending many hours watching developer conferences and tech keynotes online, I had a thought...why not spend my days doing what I already spend my personal time doing? So began my coding journey.</p>
 
-						<p>After picking up <em>HTML and CSS </em>online, I searched for a place in the development world where my organization skills and appreciation for spreadsheets could be put to good use. Enter <strong>Java</strong>; not only one of the most ubiquitous coding languages, but also one of the best languages to use to build strong, scalable databases. And thus, my love affair for object-oriented programming (and the compiler) began.</p>
-						<hr/>
+						<p>After picking up <em>HTML and CSS </em>online, I searched for a place in the development world where my organization skills and appreciation for spreadsheets could be put to good use. Enter <strong>Java</strong>; not only one of the most ubiquitous coding languages, but also one of the best languages to use to build strong, scalable databases. And thus, my love affair for object-oriented programming (and the compiler) began.</p> -->
+						<p class="lead">I have also enjoyed finding efficient, effective solutions to complex issues through translation and project management.</p>  
+						<p class="lead">Now, thanks to my developer training at The Iron Yard, I'm armed with the power of Java and ready to use code to develop solutions for our current and future problems.</p>
 					</div>
 				</div>
 			</div>
@@ -133,6 +137,43 @@
 	<!-- ==================================================
 	End Image Block -->
 
+<!-- Start Gallery Block
+	================================================== -->
+	<section id="gallery" class="section" style="background-color:#F1F1F1;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 sol-sm-12">
+					<div class="overview animate" data-animate="flipInY">
+						<h1>Skills</h1>
+						<p class="lead">Java, Threads, Sockets, SQL, JDBC, Hibernate, JUnit, Test Driven Development, HTML/CSS, JavaScript, Agile Development, Version Control, Bilingual (English-Spanish), Translation, Project Planning, Public Speaking, Team Management, Organization </p>
+					</div>
+				</div>
+				<!-- <div class="col-md-3 col-sm-6"> -->
+					<div class="service-block animate gallery-skills" data-animate="flipInX" style="padding-right: 20px;">
+						<span class="glyphicon glyphicon-cloud"></span>
+						<h3>Back-end</h3>
+						<p>I use object-orientated programming to develop static and dynamic back-end data structures in order to provide efficient and scalable front-end experiences.</p>				
+		
+					</div>
+				
+					<div class="service-block animate gallery-skills" data-animate="fadeInDownBig">
+						<span class="glyphicon glyphicon-user"></span>
+						<h3>Front-end</h3>
+						<p>I'm skilled at creating basic front-end structures, especially they are when used to test end-to-end connection and control JSON data transfer.</p>			
+					</div>
+
+					<div class="service-block animate gallery-skills" data-animate="lightSpeedIn" style="padding-left: 20px;">
+						<span class="glyphicon glyphicon-wrench"></span>						
+						<h3>Tools</h3>
+						<p>I use Sublime Text, IntelliJ (including debugger), Android Studio, JavaFX, PostgreSQL, Spring Boot, Heroku, Git, GitHub, AngularJS, Bootstrap among other tools and am constantly adding to my repertoire. 
+					</div>
+				<!-- </div> -->
+			</div>
+		</div>
+	</section>
+	<!-- ==================================================
+	End Gallery Block -->
+
 	<!-- Start Features
 	================================================== -->
 	<section id="features" class="section">
@@ -141,21 +182,21 @@
 				<div class="col-md-12">
 					<!-- Title -->
 					<div class="overview animate" data-animate="flipInX">
-						<h1><strong>Some of </strong><span class="intense">my apps</span></h1>
-						<p class="lead">I have thoroughly enjoyed learning Java. It's such a powerful language that can be applied in so many different ways. </p>
+						<h1><span class="intense">Portfolio</span></h1>
+						<p class="lead"></p>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6">
 					<div class="service-block animate" data-animate="fadeInRight">
 						<span class="glyphicon glyphicon-phone"></span>
 						<h3>Community</h3>
-						<p>An invitation-only social networking app with a Java back-end and iOS front-end. This app allows the user to be invited into organizations and interact with the events and posts associated with the organizations of which they are a member.</p>
+						<p>An invitation-only social networking app that allows the user to interact with the organizations of which they are a member, including viewing and creating events and posts.</p>
 
 						<p>The Java back-end is a set of web services that connect the relational Postgres database to the iOS front-end.</p>
 
-						<p>I also designed the front-end test site using AngularJS, which was created to test end-to-end connection of features and review JSON data transfer prior to connecting to the iOS end.</p>
+						<p>I also used AngularJS to create a test site, which allowed us to test end-to-end connection and review JSON data transfer prior to connecting to the iOS end.</p>
 						
-						<a href="https://github.com/TIYCodeZero/CommunityAppJava" class="btn btn-primary btn-md btn-rocket btn-rocket-default">Community Repo</a>
+						<a href="https://github.com/TIYCodeZero/CommunityAppJava" class="btn btn-primary btn-md btn-rocket btn-rocket-default" target="_blank">Community Repo</a>
 												
 					</div>
 				</div>
@@ -165,39 +206,45 @@
 						<h3>Bank</h3>
 						
 						<p>A complex banking system that includes polymorphism to define different account types, threading to accrue interest, and I/O for file saving.</p> 
+
+						<p>The users can identify themselves and create any number of checking, savings and retirement accounts. They can also deposit, withdraw and transfer between these accounts.</p> 
+
+						<p>Upon exiting the program, the information is saved to file in order to continue the experience in the future.</p>
 						
-						<p>The system supports any number of users, and users can create any number of accounts. .</p>
+						<p>The system supports any number of users.</p>
 						
-						<a href="https://github.com/dgowens2/BankingAssignment" class="btn btn-primary btn-md btn-rocket btn-rocket-default">Bank Repo</a>
+						<a href="https://github.com/dgowens2/BankingAssignment" class="btn btn-primary btn-md btn-rocket btn-rocket-default" target="_blank">Bank Repo</a>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6">
 					<div class="service-block animate" data-animate="fadeInLeft">
-						<span class="glyphicon glyphicon-user"></span>
+						<span class="glyphicon glyphicon-comment"></span>
 						<h3>Web Chat Client</h3>
 						<p>A web-based chat client built with Hibernate, a Spring controller, a Spring Rest controller, HTML/CSS and AngularJS.</p>
 						
 						<p>This is my first time blending all of these tools together to make a web-based chat system.</p> 
+
+						<p>This app includes a set of web services that connnect a relational database with an AngularJS front-end.</p> 
 						
-						<p>Given my...distaste...for front-end, I'd say it's pretty nice!</p>
-						<a href="https://github.com/dgowens2/WeekendSpringAngularChatApp" class="btn btn-primary btn-md btn-rocket btn-rocket-default">Chat App Repo</a>
+						<p>It also includes a web 2.0 front-end for the user with buttons that send a call information between the front and back ends.</p>
+						<a href="https://github.com/dgowens2/WeekendSpringAngularChatApp" class="btn btn-primary btn-md btn-rocket btn-rocket-default" target="_blank">Chat App Repo</a>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6">
 					<div class="service-block animate" data-animate="flipInX">
 						<span class="glyphicon glyphicon-heart"></span>
 						<h3>ASCII Art</h3>
-						<p>This is the first Java app I ever designed. It's an ASCII art project that pays homage to my beloved Atlanta Braves.</p> 
-						
-						<p>During my training at The Iron Yard, things got very intense and I wasn't sure that I was going to make it. Sometimes, when things got bad, I would go back to old assignments and marvel at just how far I'd come.</p>
-						
-						<p>During an especially tough time, I opened this project and realized I manually chopped the tomahawk through the Braves logo three times. Realizing I now had more tools at my disposal, I deleted the extra chops and added a for loop to automate the number of chops.</p>
-						
-						<p>That exercise helped me realize just how much I had grown as a programmer in a short period of time and gave me the strength to carry on.</p>
-						
-						<p>It will always hold a special place in my heart.</p>
+						<!-- <p>An ASCII art project that is the first Java app I ever designed. It's an homage to my beloved Atlanta Braves.</p>  -->
 
-						<a href="https://github.com/dgowens2/ASCIIArtProject" class="btn btn-primary btn-md btn-rocket btn-rocket-default">ASCII Art Repo</a>
+						<p>An homage to the Atlanta Braves that is the first Java app I ever designed.</p> 
+						
+						<p>when the course got intense and doubts began to creep up, I reviewed old assignments and marveled at just how far I'd come.</p>
+						
+						<p>During an especially tough time, I reviewed this project and realized that I could change the code that chops the tomahawk through the Braves logo from manually repeating to looping, because I had since discovered the power of the for loop. </p>
+						
+						<p>That moment helped me realize my growth as a programmer and gave me the strength to carry on. It will always hold a special place in my heart.</p>
+
+						<a href="https://github.com/dgowens2/ASCIIArtProject" class="btn btn-primary btn-md btn-rocket btn-rocket-default" target="_blank">ASCII Art Repo</a>
 					</div>
 				</div>
 			</div>
@@ -215,28 +262,32 @@
 				<div class="col-md-12 sol-sm-12">
 					<div class="overview animate" data-animate="flipInY">
 						<h1><span class="intense">Contact</span> Me</h1>
-						<p class="lead">Feel free to contact me using any of the following methods. </p>
+						<p class="lead"> </p>
 					</div>
 					<div class="contact-link animate" data-animate="fadeInLeft">
-					<a href="https://github.com/dgowens2">
+					<a href="https://github.com/dgowens2" target="_blank">
 					<i class="fa fa-github-alt fa-4x" aria-hidden="true"></i>
 					<p>GitHub</p></a>
 					</div>
+					
 					<div class="contact-link animate" data-animate="fadeInLeft">
 					<a href="mailto:dgowens2@gmail.com?subject=Portfolio Site">
 					<i class="fa fa-envelope-square fa-4x" aria-hidden="true"></i>
 					<p>Email</p></a>
 					</div>
+					
 					<div class="contact-link animate" data-animate="fadeInLeft">
-					<a href="https://www.linkedin.com/in/donaldgowens">
+					<a href="https://www.linkedin.com/in/donaldgowens" target="_blank">
 					<i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
 					<p>LinkedIn</p></a>
 					</div>
+					
 					<div class="contact-link animate" data-animate="fadeInLeft">
-					<a href="https://drive.google.com/open?id=0B34WNHR3K_qvVFZFM1lDUEJkSW8">
+					<a href="https://drive.google.com/open?id=0B34WNHR3K_qvVFZFM1lDUEJkSW8" target="_blank">
 					<i class="fa fa-file-text fa-4x" aria-hidden="true"></i>
 					<p>Resume</p></a>
 					</div>
+				
 				</div>
 			</div>
 		</div>
