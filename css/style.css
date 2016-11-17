@@ -443,7 +443,7 @@ i  {
 	margin-bottom: 30px;
 }
 .contact-link {
-	width: 25%;
+	width: 33%;
 	float: left;
 	text-align: center;
 }
@@ -469,14 +469,15 @@ span.intense{
 #faq {
 	background-color: #47637F;
 	color: #FFF;
-	padding-bottom: 70px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 #faq img {
 	width: 100%;
 	height: auto;
 }
 #faq a {
-	margin-bottom: 30px;
+	/*margin-bottom: 30px;*/
 	display: block;
 }
 #faq a:hover {
@@ -508,6 +509,8 @@ span.intense{
 	==================================================*/ 
 #slider {
 	background-color: #ecf0f1;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .carousel-control.left, .carousel-control.right {
@@ -539,7 +542,7 @@ span.intense{
 .carousel-indicators .active {
 	height: 15px;
 	width: 15px;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	margin: 0 2px;
@@ -555,7 +558,7 @@ span.intense{
 .carousel-inner blockquote {
 	border: none;
 	text-align: center;
-	padding: 40px 15%;
+	padding: 20px /*15%*/;
 }
 .carousel-inner blockquote small {
 	font-size: 12px;
